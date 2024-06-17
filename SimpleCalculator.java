@@ -7,31 +7,39 @@ The program is however limited to a few operators ( +, -, /, * ) as it is just a
 
 
 
-//Import a scanner class to read input from the user.
+//Imports a scanner class to read input from the user.
 import java.util.Scanner;
 
 public class SimpleCalculator {
     public static void main(String[] args) {
 
-//Add a scanner object to read input from the user
+//Adds a scanner object to read input from the user
         Scanner userinput = new Scanner(System.in);
 
-//Ask the user to write the first number
+//Asks the user to write the first number
         System.out.println("Enter the first number: ");
+
+
+//Reads the first number entered by the user
         double firstnumber = userinput.nextDouble();
 
-//Ask the user to write the operator
+//Asks the user to write the operator
         System.out.println("Enter an operation (+, -, *, /): ");
+
+
+//Reads the operator entered by the user
         char operator = userinput.next().charAt(0);
 
-//Ask the user to write the second number
+//Asks the user to write the second number
         System.out.println("Enter the second number: ");
+
+//Reads the second number entered by the user 
         double secondnumber = userinput.nextDouble();
 
-//Declare a variable to store the answer given after the calculation is done
+//Declares a variable to store the answer given after the calculation is done
         double answer;
 
-//Do the calculation as per the operator given by the user
+//Does the calculation as per the operator given by the user
         switch (operator) {
             case '+':
                 answer = firstnumber + secondnumber;
@@ -47,7 +55,7 @@ public class SimpleCalculator {
                 break;  
         }
 
-//Write the answer to the calculation done
+//Writes the answer to the calculation done
         System.out.println("Result: " +answer);
     }
 }
