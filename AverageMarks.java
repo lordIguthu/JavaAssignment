@@ -20,9 +20,9 @@ public class AverageMarks {
         double[] marks = new double[5];
 
 //Loop to get the marks for each unit
-        for (int i = 0; i < 5; i++) {
-            System.out.print("Enter the marks for unit " + (i + 1) + ": ");
-            marks[i] = studentmarks.nextDouble();
+        for (int score = 0; score < 5; score++) {
+            System.out.print("Enter the marks for unit " + (score + 1) + ": ");
+            marks[score] = studentmarks.nextDouble();
         }
 
 //Calculates the total marks
