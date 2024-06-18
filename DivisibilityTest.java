@@ -1,8 +1,7 @@
-
-
-
-
-/*This java program enables the user to
+/*This java program enables the user to learn the divisibility test of numbers
+between 0 and 9.It incorporates the scanner class and object to enable the usergive the number they would like to have checked.
+with the use of loop method it iterates through the numbers 1 to 9 and performs mathematical computations so as to find the 
+appropriate answer for the user.The program is also able to print out additional information which give the user additional information*/
 
 
 //Imports a scanner class to read input from the user.
